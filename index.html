@@ -4,26 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Poppins:wght@300&display=swap" rel="stylesheet">
     <title>Sobre_São_Paulo</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
     <!--Cabeçalho-->
-    <div>
-        
-        <nav>
-            <a href=""><img src="./imagens/Brasão_da_cidade_de_São_Paulo.svg.png" alt="">SãoPaulo</a>
-            <a href="#Home">Home</a>
-            <a href="#Sobre">Sobre</a>
-            <a href="#Vídeo">Vídeo</a>
-            <a href="#Curiosidades">Curiosidades</a>
-            <a href="#Contato">Contato</a>
+    <div class="Cabeçalho">
+       
+        <nav class="navegador">
+            <img class="Logo" src="./imagens/Brasão_da_cidade_de_São_Paulo.svg.png" ; alt="">
+            <a class="Cabeçalho_item" href="#Home">Home</a>
+            <a class="Cabeçalho_item" href="#Sobre">Sobre</a>
+            <a class="Cabeçalho_item" href="#Vídeo">Vídeo</a>
+            <a class="Cabeçalho_item" href="#Curiosidades">Curiosidades</a>
+            <a class="Cabeçalho_item" href="#Contato">Contato</a>
         </nav>
 
-        <main>
+        <main class="main">
             <h1 id="Home">São Paulo</h1>
-            <img src="./imagens/Sao-Paulo-467-banner-1.webp" alt="Imagem Cidade São Paulo">
+            <p class="paragrafo">"A cidade de Oportunidades e descobertas"</p>
+           
         </main>
 
     </div>
@@ -32,35 +36,35 @@
     <article>
 
      <!--informações sobre São Paulo-->
-        <section>
+        <section id="Sobre">
 
-           <h2 id="Sobre">SOBRE SÃO PAULO</h2>
-           <p>A cidade de <strong>São Paulo</strong> é a capital do estado de mesmo nome e sede da Região Metropolitana de São Paulo. A capital paulista possui<strong> 12 milhões de habitantes</strong>, sendo<strong> a mais populosa do Brasil</strong>. Está inserida no bioma<strong> Mata Atlântica</strong>, tendo clima predominantemente Subtropical Úmido. O tempo, entretanto, pode sofrer bruscas variações durante o dia.</p>
-           <p> O município é considerado uma <strong>cidade global</strong> em função do seu dinamismo econômico e dos serviços de que dispõe, sobretudo no que diz respeito às redes de transporte e de comunicação. São Paulo apresenta, entretanto, muitos desafios estruturais característicos de grandes metrópoles.</p>
-           <a href="https://mundoeducacao.uol.com.br/geografia/cidade-de-sao-paulo.htm#:~:text=A%20funda%C3%A7%C3%A3o%20da%20cidade%20de,ind%C3%ADgenas%20que%20viviam%20na%20regi%C3%A3o.">Saiba Mais</a>
+           <h2 class="Titulos">SOBRE SÃO PAULO</h2>
 
+           <div class="bloco1">
+           <p class="paragrafo">A cidade de <strong>São Paulo</strong> é a capital do estado de mesmo nome e sede da Região Metropolitana de São Paulo. A capital paulista possui<strong> 12 milhões de habitantes</strong>, sendo<strong> a mais populosa do Brasil</strong>. Está inserida no bioma<strong> Mata Atlântica</strong>, tendo clima predominantemente Subtropical Úmido. O tempo, entretanto, pode sofrer bruscas variações durante o dia.</p>
+           <p class="paragrafo"> O município é considerado uma <strong>cidade global</strong> em função do seu dinamismo econômico e dos serviços de que dispõe, sobretudo no que diz respeito às redes de transporte e de comunicação. São Paulo apresenta, entretanto, muitos desafios estruturais característicos de grandes metrópoles.</p>
+           <a class="pesquisa" href="https://mundoeducacao.uol.com.br/geografia/cidade-de-sao-paulo.htm#:~:text=A%20funda%C3%A7%C3%A3o%20da%20cidade%20de,ind%C3%ADgenas%20que%20viviam%20na%20regi%C3%A3o.">Saiba Mais</a>
+           <div>
         </section>
 
      <!--vídeos sobre -->
-        <section>
+        <section id="Vídeo">
 
-            <h2 id="Vídeo">VEJA VOCÊ MESMO</h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/R6yEAj37FSU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            
-
+            <h2 class="Titulos">VEJA VOCÊ MESMO</h2>
+            <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/R6yEAj37FSU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </section>
 
     <!--Curiosidades-->
-         <section>
+         <section id="Curiosidades">
 
-             <h2 id="Curiosidades">CURIOSIDADES</h2>
+             <h2 class="Titulos">CURIOSIDADES</h2>
 
              <!--curiosidade 1-->
              <section>
 
                  <img src="./imagens/shutterstock-84904912-1024x683.jpg" alt="foto de pizza">
                  <h3>1 milhão de pizzas por dia</h3>
-                 <p>Nós amamos pizza! Esse é um fato incontestável. São Paulo é a cidade que mais consome pizza no Brasil e a segunda colocada no mundo inteiro. De acordo com a Associação de Pizzarias Unidas do Brasil, o País produz aproximadamente 1 milhão de pizzas por dia e o Estado de São Paulo é responsável por consumir mais da metade desse total estimado: 572 mil. Os dados foram divulgados em matéria do G1 publicada ano passado. A cidade que ocupa a liderança no ranking mundial é Nova York, nos Estados Unidos.
+                 <p class="paragrafo">Nós amamos pizza! Esse é um fato incontestável. São Paulo é a cidade que mais consome pizza no Brasil e a segunda colocada no mundo inteiro. De acordo com a Associação de Pizzarias Unidas do Brasil, o País produz aproximadamente 1 milhão de pizzas por dia e o Estado de São Paulo é responsável por consumir mais da metade desse total estimado: 572 mil. Os dados foram divulgados em matéria do G1 publicada ano passado. A cidade que ocupa a liderança no ranking mundial é Nova York, nos Estados Unidos.
                 </p>
                  <a href="https://tpaempreendimentos.com.br/blog/sao-paulo-e-a-segunda-cidade-que-mais-consome-pizza-no-mundo/#:~:text=S%C3%A3o%20Paulo%20%C3%A9%20a%20cidade,desse%20total%20estimado%3A%20572%20mil.">clique aqui para conhecer mais</a>
 
@@ -71,7 +75,7 @@
 
                  <img src="./imagens/caption.jpg" alt="Helicoptero em São Paulo">
                  <h3>Haja heliponto!</h3>
-                 <p>Outra curiosidade é a seguinte! De acordo com um levantamento feito pela Associação Brasileira dos Pilotos de Helicóptero (Abraphe), a cidade possui a maior frota do transporte no mundo inteiro. A cada 45 segundos um helicóptero pousa em São Paulo. O movimento é tão intenso que a Força Aérea criou um sistema inédito para garantir a segurança desses tráfegos. Hoje, existem no mundo mais de 50 mil helicópteros utilizados para fins civis e militares. A cidade com a maior frota de helicópteros no mundo é São Paulo, a maior metrópole do Brasil.</p>
+                 <p class="paragrafo">Outra curiosidade é a seguinte! De acordo com um levantamento feito pela Associação Brasileira dos Pilotos de Helicóptero (Abraphe), a cidade possui a maior frota do transporte no mundo inteiro. A cada 45 segundos um helicóptero pousa em São Paulo. O movimento é tão intenso que a Força Aérea criou um sistema inédito para garantir a segurança desses tráfegos. Hoje, existem no mundo mais de 50 mil helicópteros utilizados para fins civis e militares. A cidade com a maior frota de helicópteros no mundo é São Paulo, a maior metrópole do Brasil.</p>
                  <a href="https://www.prnewswire.com/news-releases/sao-paulo-tem-a-maior-frota-de-helicopteros-do-mundo-803514358.html#:~:text=FLORIAN%C3%93POLIS%2C%20Brasil%2C%201%20de%20fevereiro,a%20capital%20mundial%20dos%20helic%C3%B3pteros.&text=Lastoria%20%2F%20S%C3%A3o%20Paulo-,De%20acordo%20com%20um%20levantamento%20feito%20pela%20Associa%C3%A7%C3%A3o%20Brasileira%20dos,do%20transporte%20no%20mundo%20inteiro.">clique aqui para conhecer mais</a>
 
              </section>
@@ -81,7 +85,7 @@
 
                  <img src="./imagens/Cemiterio-Vila-Formosa.webp" alt="Cemiterio Vila Formosa">
                  <h3>Maior cemitério da América Latina</h3>
-                 <p>Entre as curiosidades sobre a cidade de São Paulo, essa é a mais sinistra. É na zona Leste de São Paulo que fica o Cemitério da Vila Formosa, o maior da América Latina. Segundo a subprefeitura de Vila Formosa, mais de 1,5 milhão de pessoas estão enterradas no cemitério municipal, que foi inaugurado em 1949. Por mês, são realizados aproximadamente 275 enterros.</p>  
+                 <p class="paragrafo">Entre as curiosidades sobre a cidade de São Paulo, essa é a mais sinistra. É na zona Leste de São Paulo que fica o Cemitério da Vila Formosa, o maior da América Latina. Segundo a subprefeitura de Vila Formosa, mais de 1,5 milhão de pessoas estão enterradas no cemitério municipal, que foi inaugurado em 1949. Por mês, são realizados aproximadamente 275 enterros.</p>  
                  <a href="Entre as curiosidades sobre a cidade de São Paulo, essa é a mais sinistra. É na zona Leste de São Paulo que fica o Cemitério da Vila Formosa, o maior da América Latina. Segundo a subprefeitura de Vila Formosa, mais de 1,5 milhão de pessoas estão enterradas no cemitério municipal, que foi inaugurado em 1949. Por mês, são realizados aproximadamente 275 enterros.">clique aqui para conhecer mais</a>  
 
              </section>
@@ -91,10 +95,10 @@
     </article>
 
     <!--Rodapé-->
-    <footer>
+    <footer id="Contato">
     
         <!--Esquema para contatos-->
-        <h2 id="Contato">Contato</h2>
+        <h2 class="Titulos">Contato</h2>
         <nav>
             <a href="https://github.com/felipe-2833"><img src="./imagens/png-transparent-github-pages-random-icons-white-logo-monochrome-thumbnail.png" alt="Logo Github">Github</a>
             <a href=""><img src="./imagens/linkedin.png" alt="Logo Linkedin">LInkedin</a>
